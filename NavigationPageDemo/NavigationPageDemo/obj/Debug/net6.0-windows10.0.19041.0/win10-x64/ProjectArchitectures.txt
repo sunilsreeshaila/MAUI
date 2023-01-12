@@ -1,0 +1,1 @@
+C:\WorkSpace\MAUI\NavigationPageDemo\NavigationPageDemo\NavigationPageDemo.csproj;x64

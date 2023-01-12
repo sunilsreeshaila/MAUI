@@ -1,0 +1,1 @@
+C:\WorkSpace\MAUI\FlyoutPageDemo\FlyoutPageDemo\FlyoutPageDemo.csproj;x64
