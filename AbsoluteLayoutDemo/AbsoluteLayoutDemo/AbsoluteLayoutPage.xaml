@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsoluteLayoutDemo.AbsoluteLayoutPage"
+             Title="AbsoluteLayoutPage"
+             BackgroundColor="DarkRed">
+    <AbsoluteLayout>
+        <!--<Button Text="Click Me!"
+                AbsoluteLayout.LayoutBounds="0,300,250,100"/>-->
+        <!--<Button Text="Click Me!"
+                AbsoluteLayout.LayoutBounds="0,300,250,0.5"
+                AbsoluteLayout.LayoutFlags="HeightProportional"/>-->
+        <!--<Button Text="Click Me!"
+                AbsoluteLayout.LayoutBounds="0,300,0.5,0.5"
+                AbsoluteLayout.LayoutFlags="SizeProportional"/>-->
+        <!--<Button Text="Click Me!"
+                AbsoluteLayout.LayoutBounds="0.5,300,0.5,0.5"
+                AbsoluteLayout.LayoutFlags="SizeProportional, XProportional"/>-->
+        <Button Text="Click Me!"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,0.5,0.5"
+                AbsoluteLayout.LayoutFlags="All"/>
+        <Button Text=".Net MAUI"/>
+    </AbsoluteLayout>
+    
+</ContentPage>
