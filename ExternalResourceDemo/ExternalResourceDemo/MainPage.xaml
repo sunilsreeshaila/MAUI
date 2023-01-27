@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExternalResourceDemo.MainPage">
+
+    <!--<Grid BackgroundColor="#F1841C">
+        <Image Source="shoe"/>
+    </Grid>-->
+    <!--<Grid BackgroundColor="SkyBlue">
+        <Image Source="sun"/>
+    </Grid>-->
+    <!--<Grid BackgroundColor="Black">
+        <Image Source="loader.gif"
+               IsAnimationPlaying="True"/>
+    </Grid>-->
+    <!--<Grid BackgroundColor="Black">
+        <Image Source="ok.png"/>
+    </Grid>-->
+    <!--<Grid BackgroundColor="Black">
+        <Image Source="network"/>
+    </Grid>-->
+
+
+    <!--<StackLayout BackgroundColor="Black">
+        <Label FontSize="50"
+               Text="This is a font test"
+               TextColor="White"/>
+        <Label FontSize="50"
+               Text="This is a font test"
+               TextColor="White"
+               FontFamily="Creamer.ttf"
+               FontAttributes="Bold,Italic"/>
+        <Label FontSize="50"
+               Text="This is a font test"
+               TextColor="White"
+               FontFamily="MyFont"
+               FontAttributes="Bold,Italic"/>
+    </StackLayout>-->
+
+    <StackLayout BackgroundColor="Black">
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="fontello.ttf"
+                    Glyph="&#xF164;"
+                    Size="50"/>
+            </Image.Source>
+        </Image>
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Icons"
+                    Glyph="&#xF164;"
+                    Size="50"/>
+            </Image.Source>
+        </Image>
+    </StackLayout>
+</ContentPage>
